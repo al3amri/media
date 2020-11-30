@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Insta-Video Downloader</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Instagram Video Downloader or Insta-Video Downloader is developed as Instagram does not allow you to download videos directly but you like to. Insta-Video Downlaoder extracts mp4 video link from the Instagram post URL and downloads the video irrespective of the device (desktop or mobile or tablet).">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>::-webkit-input-placeholder{text-align:center}:-moz-placeholder{text-align:center}::-moz-placeholder{text-align:center}:-ms-input-placeholder{text-align:center}body{font-size:16px}.header{text-align:center;font-family:Lobster;font-size:50px;color:#d9534f}#downloadVideo{font-size:24px;margin-top:2%}.content{padding-top:5%}.footer{background-color:#000;padding:1.5rem 0;word-spacing:10px;color:#d9534f;left:0;right:0;bottom:0;position:fixed}.fa{color:#d9534f}input{text-align:center}</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		Letto Insta-Media Downloader
+	</div>
+	<div class="row content">
+		<div class="col-sm-12">
+			<p class="text-center">Download ( photo - video ) from instagram</p>
+			
+			<div class="input-group">
+			   <input type="text" id="postUrl" class="form-control" placeholder="Instagram Post URL" value=""/>
+			   <span class="input-group-btn">
+					<button class="btn btn-danger" type="button" id="getMedia">تحميل</button>
+			   </span>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-8 col-md-offset-2">
+			<div id="media" class="text-center"></div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-7 text-right">
+				&copy; insta : 5G7
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
